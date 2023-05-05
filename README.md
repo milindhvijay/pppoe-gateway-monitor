@@ -7,27 +7,27 @@ This script was created to address an issue with my ISP having poor internationa
 
 ## Usage
 
-* Clone this repository to your pfSense system:
+&nbsp;&nbsp;1. Clone this repository to your pfSense system:
 
 ```bash
 git clone https://github.com/milindhvijay/pppoe-gateway-monitor.git
 ```
 
-* Navigate to the cloned directory:
+&nbsp;&nbsp;2. Navigate to the cloned directory:
 
 ```bash
 cd pppoe-gateway-monitor
 ```
 
-* Make the script executable:
+&nbsp;&nbsp;3. Make the script executable:
 
 ```bash
 chmod +x pppoe-gateway-monitor.sh
 ```
 
-* Update the desired_gws variable in pppoe-gateway-monitor.sh with the desired gateway IP addresses, separated by spaces.
+&nbsp;&nbsp;4. Update the desired_gws variable in pppoe-gateway-monitor.sh with the desired gateway IP addresses, separated by spaces.
 
-* Run the script with root or administrative privileges:
+&nbsp;&nbsp;5. Run the script with root or administrative privileges:
 
 ```bash
 ./pppoe-gateway-monitor.sh
